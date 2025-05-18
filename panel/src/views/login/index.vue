@@ -19,7 +19,7 @@
                 <img src="https://tcdn.udeve.net/assets/images/a411ef83776aa.png" class="theme" />
 
                 <div class="cr">
-                    <a href="https://www.youdeyunke.com/" target="_blank">优得（西安）信息科技有限公司</a>
+                    <a href="https://www.youdeyunke.com/" target="_blank">友得云客</a>
                     &nbsp;版权所有
                 </div>
             </div>
