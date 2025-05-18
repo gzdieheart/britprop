@@ -1,14 +1,14 @@
 /**
- * +----------------------------------------------------------------------
- * | 友得云客  - 开启房产营销新纪元
- * +----------------------------------------------------------------------
- * | Copyright (c) 2019~2023 优得（西安）信息科技有限公司版权所有
- * +----------------------------------------------------------------------
- * | Licensed 友得云客不是自由软件 未经允许不可移除相关版权
- * +----------------------------------------------------------------------
- * | Author: www.youdeyunke.com
- * +----------------------------------------------------------------------
- */
+* +----------------------------------------------------------------------
+* | 友得云客
+* +----------------------------------------------------------------------
+* | Copyright (c) 2024-2027
+* +----------------------------------------------------------------------
+* | Licensed 友得云客不是自由软件 未经允许不可移除相关版权
+* +----------------------------------------------------------------------
+* | Author: www.youdeyunke.com
+* +----------------------------------------------------------------------
+*/
 // pages/home/home.js
 const app = getApp()
 const request = require('../../utils/request');
@@ -21,51 +21,56 @@ Page({
 
     data: {
         loading: true,
-        shareTitle: '友得云客房产小程序',
+        shareTitle: '英伦云轩',
         shareCover: '',
         btns: [{
                 "size": 100,
                 "public": true,
-                "innerText": "新",
+                //"innerText": "新",
                 "link": "{\"cat\":\"page\",\"opentype\":\"\",\"path\":\"/pkgPost/pages/index/index?district_id=1\",\"appid\":\"\",\"apppath\":\"\",\"function\":\"\",\"url\":\"\",\"customPath\":true}",
-                "name": "新城区",
-                "iconUrl": "https://tcdn.udeve.net/udyk/65bb629ee4b0bee2ad943894.png",
+                "name": "伦敦城",
+                //"iconUrl": "https://tcdn.udeve.net/udyk/65bb629ee4b0bee2ad943894.png",
+                "iconUrl": "http://127.0.0.1:8080/icon/london_city.jpg",
                 "id": 1712153796698
             },
             {
                 "size": 100,
                 "public": true,
-                "innerText": "雁",
+                //"innerText": "雁",
                 "link": "{\"cat\":\"page\",\"opentype\":\"\",\"path\":\"/pkgPost/pages/index/index?district_id=4\",\"appid\":\"\",\"apppath\":\"\",\"function\":\"\",\"url\":\"\",\"customPath\":true}",
-                "name": "雁塔区",
-                "iconUrl": "https://tcdn.udeve.net/udyk/65bb6290e4b0bee2ad943893.png",
+                "name": "威斯敏斯特",
+                //"iconUrl": "https://tcdn.udeve.net/udyk/65bb6290e4b0bee2ad943893.png",
+                "iconUrl": "http://127.0.0.1:8080/icon/wsmst.jpg",
                 "id": 1712153925425
             },
             {
                 "size": 100,
                 "public": true,
-                "innerText": "灞",
+                //"innerText": "灞",
                 "link": "{\"cat\":\"page\",\"opentype\":\"\",\"path\":\"/pkgPost/pages/index/index?district_id=5\",\"appid\":\"\",\"apppath\":\"\",\"function\":\"\",\"url\":\"\",\"customPath\":true}",
-                "name": "灞桥区",
-                "iconUrl": "https://tcdn.udeve.net/udyk/65bb6281e4b0bee2ad943892.png",
+                "name": "肯辛顿",
+                //"iconUrl": "https://tcdn.udeve.net/udyk/65bb6281e4b0bee2ad943892.png",
+                "iconUrl": "http://127.0.0.1:8080/icon/kst.jpg",
                 "id": 1712153982395
             },
             {
                 "size": 100,
                 "public": true,
-                "innerText": "未",
+                //"innerText": "未",
                 "link": "{\"cat\":\"page\",\"opentype\":\"\",\"path\":\"/pkgPost/pages/index/index?district_id=6\",\"appid\":\"\",\"apppath\":\"\",\"function\":\"\",\"url\":\"\",\"customPath\":true}",
-                "name": "未央区",
-                "iconUrl": "https://tcdn.udeve.net/udyk/65bb6272e4b0bee2ad943891.png",
+                "name": "切尔西",
+                //"iconUrl": "https://tcdn.udeve.net/udyk/65bb6272e4b0bee2ad943891.png",
+                "iconUrl": "http://127.0.0.1:8080/icon/chelsea.jpg",
                 "id": 1712154035708
             },
             {
                 "size": 100,
                 "public": true,
-                "innerText": "长",
+                //"innerText": "长",
                 "link": "{\"cat\":\"page\",\"opentype\":\"\",\"path\":\"/pkgPost/pages/index/index?district_id=9\",\"appid\":\"\",\"apppath\":\"\",\"function\":\"\",\"url\":\"\",\"customPath\":true}",
-                "name": "长安区",
-                "iconUrl": "https://tcdn.udeve.net/udyk/65bb6261e4b0bee2ad943890.png",
+                "name": "富勒姆",
+                //"iconUrl": "https://tcdn.udeve.net/udyk/65bb6261e4b0bee2ad943890.png",
+                "iconUrl": "http://127.0.0.1:8080/icon/fulham.jpg",
                 "id": 1712154136937
             },
             {
@@ -146,7 +151,7 @@ Page({
                 backgroundColor: bgColor,
             });
             wx.setNavigationBarTitle({
-                title: '友得云客房产小程序',
+                title: '英伦云轩',
             })
         })
 
